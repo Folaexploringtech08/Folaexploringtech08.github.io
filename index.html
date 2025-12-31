@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Ajewole Eniola Personal Website</title>
+    <title>Fola - Personal Website</title>
     <style>
+        html {
+            scroll-behavior: smooth; /* Smooth scroll for nav */
+        }
         body {
             font-family: Arial, sans-serif;
-            background-color: #fff7e6; /* soft cream */
+            background-color: #f5f0fa; /* soft lavender background */
             color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #ff7f50; /* coral/orange */
+            background-color: #6a0dad; /* deep purple */
             color: white;
             padding: 30px 0;
             text-align: center;
@@ -19,8 +22,12 @@
         header h1 {
             margin: 0;
         }
+        header p {
+            font-style: italic;
+            margin-top: 5px;
+        }
         nav {
-            background-color: #ff9966; /* lighter orange */
+            background-color: #8a2be2; /* medium purple */
             display: flex;
             justify-content: center;
             padding: 10px 0;
@@ -38,34 +45,40 @@
             max-width: 800px;
             margin: 30px auto;
             padding: 20px;
-            background-color: #fff2e6; /* soft peach */
+            background-color: #f0e6fa; /* soft purple section */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: scale(1.02); /* subtle hover effect */
         }
         h2 {
-            color: #ff7f50;
+            color: #6a0dad;
         }
         ul {
             list-style: none;
             padding: 0;
         }
         li {
-            background-color: #ffe6cc;
+            background-color: #e6d6f7; /* lighter purple */
             margin: 5px 0;
             padding: 10px;
             border-radius: 5px;
         }
         button {
-            background-color: #ff7f50;
+            background-color: #6a0dad;
             color: white;
             border: none;
             padding: 10px 20px;
             border-radius: 5px;
             cursor: pointer;
             margin-top: 15px;
+            transition: transform 0.2s, background-color 0.2s;
         }
         button:hover {
-            background-color: #ff4c00;
+            background-color: #4b0082;
+            transform: translateY(-2px);
         }
         img {
             max-width: 150px;
@@ -77,8 +90,8 @@
 <body>
 
 <header>
-    <h1>Hello, I’m Ajewole Eniola Mary 👋</h1>
-    <p>Computer Science 300L Student | Entrepreneur | Creative Thinker</p>
+    <h1>Hello, I'm Ajewole Eniola 👋</h1>
+    <p>“Creating solutions, one project at a time”</p>
 </header>
 
 <nav>
@@ -91,9 +104,8 @@
     <h2>About Me</h2>
     <img src="https://via.placeholder.com/150" alt="Profile Avatar">
     <p>
-        Hi! I’m Ajewole Eniola Mary, a 300L Computer Science student. I spend my time learning programming, 
-        working on coding projects, and managing my small business ventures like Zuri Essence 
-        (perfume brand). I enjoy creativity, problem solving, 
+        Hi! I’m Ajewole Eniola, a 300L Computer Science student. I spend my time learning programming, 
+        working on coding projects, and managing my small business venture Zuri Essence (perfume brand). I enjoy creativity, problem solving, 
         and applying my skills to real-life projects.
     </p>
 </section>
@@ -102,27 +114,27 @@
     <h2>Skills</h2>
     <h3>Technical Skills</h3>
     <ul>
-        <li>HTML & CSS</li>
-        <li>Python Programming</li>
-        <li>Problem Solving & Logical Thinking</li>
-        <li>Basic knowledge on Cloud Computing</li>
+        <li>💻 HTML & CSS</li>
+        <li>🐍 Python Programming</li>
+        <li>🧠 Problem Solving & Logical Thinking</li>
+        <li>🌫️ Basic Knowledge on Cloud Computing</li>
     </ul>
     <h3>Non-Technical Skills</h3>
     <ul>
-        <li>Entrepreneurship</li>
-        <li>Creativity & Innovation</li>
-        <li>Time Management</li>
-        <li>Communication & Teamwork</li>
+        <li>💡 Entrepreneurship</li>
+        <li>🎨 Creativity & Innovation</li>
+        <li>⏱️ Time Management</li>
+        <li>🗣️ Communication & Teamwork</li>
     </ul>
 </section>
 
 <section id="hobbies">
     <h2>Hobbies & Interests</h2>
     <ul>
-        <li>Working on coding projects</li>
-        <li>Learning new skills</li>
-        <li>Creative business ideas</li>
-        <li>Reading and exploring new technologies</li>
+        <li>💻 Working on coding projects</li>
+        <li>📚 Learning new skills</li>
+        <li>💡 Creative business ideas</li>
+        <li>🔍 Exploring new technologies</li>
     </ul>
     <button onclick="greet()">Click me for a greeting!</button>
 </section>
@@ -135,3 +147,4 @@ function greet() {
 
 </body>
 </html>
+
